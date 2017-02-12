@@ -3,17 +3,16 @@
 
 ---
 
-### problem during working
+### problems during working
 
 * Run whole production stack locally
-* Different environment between dev and prod
-* Sandbox
-* Better resource utilization
+* Automatic tests
+* Better resource utilization, fast deployment
 
 
 Note:
-Run whole production stack locally(依赖过多，很难做自动化测试, 模块化）, Different environment(tricky的方式安装很多软件)
-sandbox，比如OOM，比如try之前封装的有内存泄漏的算法库, utilization(可以更多的压榨服务器资源，节约成本，就可以压低产品单价)
+Run whole production stack locally(依赖过多, 模块化, tricky的方式安装很多软件）Automatic tests(很难做自动化测试)
+utilization(可以更多的压榨服务器资源，节约成本，就可以压低产品单价)
 
 ---
 
