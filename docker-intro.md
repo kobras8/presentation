@@ -5,9 +5,9 @@
 
 ### problems during working
 
-* Run whole production stack locally
-* Automatic tests
-* Better resource utilization, fast deployment
+* Run whole production stack locally 😏
+* Automatic tests 🏥
+* Better resource utilization, fast deployment 💣
 
 
 Note:
@@ -75,7 +75,7 @@ docker的分层镜像技术，aufs，btrfs, devicemapper和vfs，
 
 ---
 
-### WHAT WE'VE LEARNED SO FAR?
+### WHAT WE'VE LEARNED SO FAR 😏?
 * Container - Light weight virtualization
 * Image - Immutable snapshot of a container
 * Registry - Central hub for sharing images
@@ -208,10 +208,6 @@ user@host:/$ docker run -d -p mysql:mysql \
 
 ----
 
-### EVERYONE ON THE TEAM RUNS THE SAME DATABASE, C LIBRARIES, CACHE, OPENSSL...
-
-----
-
 ### docker compose
 https://github.com/docker/compose
 
@@ -231,6 +227,17 @@ services:
   ...
 ```
 
+----
+
+### EVERYONE ON THE TEAM RUNS THE SAME DATABASE, C LIBRARIES, CACHE, OPENSSL... 👬
+
+
+---
+
+
+### BUILD ONCE AND RUN ANYWHERE 🎉
+<img src="./assets/img/run_anywhere.jpg" width="50%">
+
 
 ---
 
@@ -242,12 +249,6 @@ Docker可以应用于生产环境的。但需要：
 1、需要知道Docker不是包治百病。适合的业务跑docker
 2、需要有成熟的管理工具和私有DockerHub
 3、生产环境关心的主要是：监控、日志、变更、扩容，这些问题都需要在头脑里知道怎么解决。
-
----
-
-### BUILD ONCE AND RUN ANYWHERE
-<img src="./assets/img/run_anywhere.jpg" width="50%">
-
 
 ---
 
