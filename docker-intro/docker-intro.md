@@ -1,13 +1,13 @@
-## Docker introduction
+## Introduction to docker
 
 
 ---
 
-### problems during working
+### Problems during working
 
 * Run whole production stack locally 😏
 * Automatic tests 🏥
-* Better resource utilization, fast deployment 💣
+* Better resource utilization, faster deployment 💣
 
 
 Note:
@@ -28,8 +28,8 @@ Open platform for developers and operatation to build, ship, and run distributed
 
 Note:
 Docker 最初是 dotCloud 公司内部项目,在 2013 年底，dotCloud 公司决定改名为 Docker。
-Docker 最初是在 Ubuntu 12.04 上开发实现的；Red Hat 则从 RHEL 6.5 开始对 Docker 进行支持
-它提供的是一种容器虚拟化技术，同传统的虚拟机相比(aws, aliyun)不同，因此容器要比传统虚拟机更为轻便。
+
+
 
 
 ----
@@ -37,7 +37,7 @@ Docker 最初是在 Ubuntu 12.04 上开发实现的；Red Hat 则从 RHEL 6.5 �
 ### TRADITIONAL VM VS. DOCKER
 <img src="./assets/img/docker_vm.png" width="50%">
 Note:
-传统虚拟机技术是虚拟出一套硬件后，在其上运行一个完整操作系统，在该系统上再运行所需应用进程；而容器内的应用进程直接运行于宿主的内核，容器内没有自己的内核，而且也没有进行硬件虚拟。
+它提供的是一种容器虚拟化技术，传统虚拟机技术是虚拟出一套硬件后，在其上运行一个完整操作系统，在该系统上再运行所需应用进程；而容器内的应用进程直接运行于宿主的内核.因此容器要比传统虚拟机更为轻便。
 
 
 ----
