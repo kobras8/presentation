@@ -21,6 +21,9 @@ utilization(可以更多的压榨服务器资源，节约成本，就可以压�
 <img src="./assets/img/what_is_docker.png" width="50%">
 <iframe src="https://ghbtns.com/github-btn.html?user=docker&repo=docker&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
+Note:
+先介绍集装箱干嘛的，方便搬用，工人不用关心里面存放的是什么东西
+
 ----
 
 ### What is Docker?
